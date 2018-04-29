@@ -1,0 +1,11 @@
+markdown: kramdown 
+permalink: /:year/:month/:title
+title: Linyi's blog
+url: http://nomath.name
+subscribe: http://nomath.name/feed
+exclude: [ README.md, newpost.rb ]
+domain: www.nomath.name
+author: linyi
+email: destination1986@163.com
+duoshuoShortname: nomath
+safe: true
