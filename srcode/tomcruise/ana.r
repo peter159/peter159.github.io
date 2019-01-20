@@ -26,8 +26,11 @@ ggplot2::ggplot(Results, aes(x=word, y=frequency, fill=word)) +
            size = 1) +
   coord_polar(theta = "x") +
   xlab("") + ylab("") +
-  ggtitle("Word Frequency") +
-  theme(legend.position = "none",plot.title = element_text(hjust = 0.5)) +
+  ggtitle("Movie Theme Distribution") +
+  theme(legend.position = "none",
+        plot.title = element_text(hjust = 0.5,size = 10),
+        text = element_text(size = 20),
+        axis.text.y = element_text(size = 1)) +
   labs(x = NULL, y = NULL)
 
 plotly::ggplotly(ggplot2::ggplot(Results, aes(x=word, y=frequency, fill=word)) +
