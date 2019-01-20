@@ -8,7 +8,8 @@ production <- fread("./production.csv")
 datainfo(production)
 head(production)
 
-ggplot_factor_barplot(production,"age",ggtitle = "production by age")
+ggplot_factor_barplot(production,"age",ggtitle = "production by age") +
+  theme(axis.text.x = element_text(size = 20))
 
 ## word cloud
 Results <- production$tag
