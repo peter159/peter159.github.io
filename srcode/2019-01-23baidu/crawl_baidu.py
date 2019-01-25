@@ -26,7 +26,7 @@ def get_baidu(keyword):
             hrefs_ref += [requests.get(href).url]
         except Exception as e:
             hrefs_ref += [href]
-            print("parsing error: {}".format(href))
+            # print("parsing error: {}".format(href))
     return [hrefs_ref, keyword]
 
 
@@ -40,6 +40,8 @@ if __name__ == "__main__":
     # hrefs, keyword = get_baidu("妓女")
     # print(hrefs)
     # print(parse_hrefs(hrefs, keyword))
+    df = pd.read_excel("e:/github/peter159.github.io/srcode/2019-01-23baidu/query-hive-7561.xlsx")
+    # keywords = keywords + df['attr_5'].dropna()[:30]
 
     all_result = []
     for keyword in keywords:
