@@ -11,7 +11,7 @@
 ## 访问
 
 - http://www.linyi.press
-- peter159.github.io
+- <http://peter159.github.io>
 
 ## 版权
 
