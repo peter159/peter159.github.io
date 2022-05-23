@@ -1,11 +1,11 @@
 markdown: kramdown 
 permalink: /:year/:month/:title
 title: Linyi's blog
-url: http://nomath.name
-subscribe: http://nomath.name/feed
+url: http://www.linyi.press
+subscribe: http://www.linyi.press/feed
 exclude: [ README.md, newpost.rb ]
-domain: www.nomath.name
+domain: www.linyi.press
 author: linyi
-email: destination1986@163.com
+email: peter.linyi159@gmail.com
 duoshuoShortname: nomath
 safe: true

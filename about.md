@@ -32,10 +32,4 @@ permalink: /about/
 - wechat：ly448915435
 - 邮箱：[448915435@qq.com](448915435@qq.com "448915435@qq.com")
 
-
-
-## 接受打赏 ##
-
-本站点为付费域名，接受打赏以支付每年的域名购买费用<a href="http://www.dashangcloud.com/sh/878938" target="_blank">我要打赏</a>
-
 <br>
