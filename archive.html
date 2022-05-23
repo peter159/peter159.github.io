@@ -11,9 +11,9 @@ keywords:
 
 <ul class="postsList">
 {% for post in site.posts %}
-{% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
 {% if post_year1 != post_year2 %}
-{% assign post_year1 = post_year2 %}
+  {% assign post_year1 = post_year2 %}
 </ul>
 <h2>{{ post_year1 }}</h2>
 <ul class="postsList">
