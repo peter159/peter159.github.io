@@ -1,9 +1,8 @@
 --- 
 layout: post
-title: kaggle建模赛之手写数字识别
+title: 建模赛之手写数字识别
 tags: 
 - 建模
-- kaggle
 status: publish
 type: post
 published: true
