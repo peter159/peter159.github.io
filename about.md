@@ -27,9 +27,7 @@ permalink: /about/
 
 ## 联系方式 ##
 
-- 微博：[彼德纯爷们](http://weibo.com/2100953575 "彼德纯爷们")
-- QQ：448915435
-- wechat：ly448915435
-- 邮箱：[448915435@qq.com](448915435@qq.com "448915435@qq.com")
+- 微博：[做干爹不做亲爹](http://weibo.com/2100953575 "做干爹不做亲爹")
+- 邮箱：[peter.linyi159@gmail.com](peter.linyi159@gmail.com "peter.linyi159@gmail.com")
 
 <br>
