@@ -1,0 +1,78 @@
+[10:54:00.520] Global cache location '/home/linyi/.cache/typescript/4.5', safe file path '/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/typesMap.json
+[10:54:00.520] Processing cache location '/home/linyi/.cache/typescript/4.5'
+[10:54:00.520] Trying to find '/home/linyi/.cache/typescript/4.5/package.json'...
+[10:54:00.521] Finished processing cache location '/home/linyi/.cache/typescript/4.5'
+[10:54:00.521] Process id: 74431
+[10:54:00.521] NPM location: /home/linyi/.nvm/versions/node/v16.9.1/bin/npm (explicit '--npmLocation' not  provided)
+[10:54:00.521] validateDefaultNpmLocation: false
+[10:54:00.521] Npm config file: /home/linyi/.cache/typescript/4.5/package.json
+[10:54:00.521] Npm config file: '/home/linyi/.cache/typescript/4.5/package.json' is missing, creating new one...
+[10:54:00.522] Updating types-registry npm package...
+[10:54:00.522] Exec: /home/linyi/.nvm/versions/node/v16.9.1/bin/npm install --ignore-scripts types-registry@latest
+[10:54:06.905]     Succeeded. stdout:
+    
+    added 1 package, and audited 2 packages in 6s
+
+found 0 vulnerabilities
+
+[10:54:06.905] Updated types-registry npm package
+[10:54:06.931] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/mnt/nFiles/github/peter159.github.io/assets/js/51count.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/mnt/nFiles/github/peter159.github.io/assets/js","kind":"discover"}
+[10:54:06.961] Loaded safelist from types map file '/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/typesMap.json'
+[10:54:06.962] Explicitly included types: []
+[10:54:06.963] Inferred typings from unresolved imports: []
+[10:54:06.963] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/mnt/nFiles/github/peter159.github.io/assets/js/bower_components","/mnt/nFiles/github/peter159.github.io/assets/js/node_modules"]}
+[10:54:06.963] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/mnt/nFiles/github/peter159.github.io/assets/js/bower_components","/mnt/nFiles/github/peter159.github.io/assets/js/node_modules"]}
+[10:54:06.963] DirectoryWatcher:: Added:: WatchInfo: /mnt/nFiles/github/peter159.github.io/assets/js/bower_components
+[10:54:06.964] DirectoryWatcher:: Added:: WatchInfo: /mnt/nFiles/github/peter159.github.io/assets/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[10:54:06.965] Elapsed:: 1.0227639991790056ms DirectoryWatcher:: Added:: WatchInfo: /mnt/nFiles/github/peter159.github.io/assets/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[10:54:06.965] DirectoryWatcher:: Added:: WatchInfo: /mnt/nFiles/github/peter159.github.io/assets/js/node_modules
+[10:54:06.965] DirectoryWatcher:: Added:: WatchInfo: /mnt/nFiles/github/peter159.github.io/assets/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[10:54:06.965] Elapsed:: 0.12263200059533119ms DirectoryWatcher:: Added:: WatchInfo: /mnt/nFiles/github/peter159.github.io/assets/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[10:54:06.965] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[10:54:06.966] Response has been sent.
+[10:54:06.966] No new typings were requested as a result of typings discovery
+[10:54:07.086] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/mnt/nFiles/github/peter159.github.io/assets/js/less.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/mnt/nFiles/github/peter159.github.io/assets/js","kind":"discover"}
+[10:54:07.086] Explicitly included types: []
+[10:54:07.086] Inferred typings from file names: ["less"]
+[10:54:07.086] Inferred typings from unresolved imports: []
+[10:54:07.086] Result: {"cachedTypingPaths":[],"newTypingNames":["less"],"filesToWatch":["/mnt/nFiles/github/peter159.github.io/assets/js/bower_components","/mnt/nFiles/github/peter159.github.io/assets/js/node_modules"]}
+[10:54:07.087] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["less"],"filesToWatch":["/mnt/nFiles/github/peter159.github.io/assets/js/bower_components","/mnt/nFiles/github/peter159.github.io/assets/js/node_modules"]}
+[10:54:07.087] DirectoryWatcher:: Added:: WatchInfo: /mnt/nFiles/github/peter159.github.io/assets/js/bower_components
+[10:54:07.087] DirectoryWatcher:: Added:: WatchInfo: /mnt/nFiles/github/peter159.github.io/assets/js/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[10:54:07.087] Elapsed:: 0.013127001002430916ms DirectoryWatcher:: Added:: WatchInfo: /mnt/nFiles/github/peter159.github.io/assets/js/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[10:54:07.087] DirectoryWatcher:: Added:: WatchInfo: /mnt/nFiles/github/peter159.github.io/assets/js/node_modules
+[10:54:07.087] DirectoryWatcher:: Added:: WatchInfo: /mnt/nFiles/github/peter159.github.io/assets/js/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[10:54:07.087] Elapsed:: 0.009484998881816864ms DirectoryWatcher:: Added:: WatchInfo: /mnt/nFiles/github/peter159.github.io/assets/js/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[10:54:07.087] Installing typings ["less"]
+[10:54:07.087] Npm config file: /home/linyi/.cache/typescript/4.5/package.json
+[10:54:07.088] Sending response:
+    {"kind":"event::beginInstallTypes","eventId":1,"typingsInstallerVersion":"4.5.3","projectName":"/dev/null/inferredProject2*"}
+[10:54:07.088] Response has been sent.
+[10:54:07.088] #1 with arguments'["@types/less@ts4.5"]'.
+[10:54:07.088] Exec: /home/linyi/.nvm/versions/node/v16.9.1/bin/npm install --ignore-scripts @types/less@ts4.5 --save-dev --user-agent="typesInstaller/4.5.3"
+[10:54:09.027]     Succeeded. stdout:
+    
+    added 1 package, and audited 3 packages in 2s
+
+found 0 vulnerabilities
+
+[10:54:09.028] npm install #1 took: 1940 ms
+[10:54:09.028] Installed typings ["@types/less@ts4.5"]
+[10:54:09.032] Installed typing files ["/home/linyi/.cache/typescript/4.5/node_modules/@types/less/index.d.ts"]
+[10:54:09.032] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/linyi/.cache/typescript/4.5/node_modules/@types/less/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[10:54:09.032] Response has been sent.
+[10:54:09.032] Sending response:
+    {"kind":"event::endInstallTypes","eventId":1,"projectName":"/dev/null/inferredProject2*","packagesToInstall":["@types/less@ts4.5"],"installSuccess":true,"typingsInstallerVersion":"4.5.3"}
+[10:54:09.032] Response has been sent.
+[10:54:09.446] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/linyi/.nvm/versions/node/v16.9.1/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/mnt/nFiles/github/peter159.github.io/assets/js/less.js","/home/linyi/.cache/typescript/4.5/node_modules/@types/less/index.d.ts"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/mnt/nFiles/github/peter159.github.io/assets/js","kind":"discover"}
+[10:54:09.448] Explicitly included types: []
+[10:54:09.449] Inferred typings from file names: ["less"]
+[10:54:09.449] Inferred typings from unresolved imports: []
+[10:54:09.450] Result: {"cachedTypingPaths":["/home/linyi/.cache/typescript/4.5/node_modules/@types/less/index.d.ts"],"newTypingNames":[],"filesToWatch":["/mnt/nFiles/github/peter159.github.io/assets/js/bower_components","/mnt/nFiles/github/peter159.github.io/assets/js/node_modules"]}
+[10:54:09.451] Finished typings discovery: {"cachedTypingPaths":["/home/linyi/.cache/typescript/4.5/node_modules/@types/less/index.d.ts"],"newTypingNames":[],"filesToWatch":["/mnt/nFiles/github/peter159.github.io/assets/js/bower_components","/mnt/nFiles/github/peter159.github.io/assets/js/node_modules"]}
+[10:54:09.452] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/linyi/.cache/typescript/4.5/node_modules/@types/less/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[10:54:09.453] Response has been sent.
+[10:54:09.453] No new typings were requested as a result of typings discovery
