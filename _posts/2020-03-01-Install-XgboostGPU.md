@@ -2,8 +2,8 @@
 layout: post
 title: 安装GPU版本的xgboost
 tags:
-- python
-- data science
+- PY
+- DS
 status: publish
 type: post
 published: true
