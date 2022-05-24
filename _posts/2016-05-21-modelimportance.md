@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: 建模如今这么火
+title: 模型是什么
 tags: 
 - 建模
 status: publish
